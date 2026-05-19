@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 19, 2026 at 08:42 AM
+-- Generation Time: May 19, 2026 at 09:23 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -39,7 +39,6 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`post_id`, `user_id`, `title`, `content`) VALUES
-(1, 1, 'First Post', 'This is my first blog post.'),
 (2, 2, 'Hello World', 'Mia is testing her first post.');
 
 -- --------------------------------------------------------
@@ -61,7 +60,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`user_id`, `username`, `email`, `is_active`) VALUES
 (1, 'alex', 'alex@email.com', 1),
-(2, 'mia', 'mia@email.com', 0);
+(2, 'mia', 'iamanewemail.new@example.com', 0);
 
 --
 -- Indexes for dumped tables
