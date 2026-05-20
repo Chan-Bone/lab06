@@ -6,7 +6,8 @@
 
     <label for="password">Password:</label>
     <input type="text" name="password" required><br>
-
+    
+    <br>
     <input type="hidden" name="token" value="C106417758">
     <input type="submit" value="Login">
 </form>
